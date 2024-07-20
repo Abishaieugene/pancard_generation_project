@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PAN CARD ID GENERATION</title>
+    <link rel="stylesheet" href="abi.css" />
+  </head>
+  <body>
+    <div
+      style="
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+      "
+    >
+      <h1>PAN ID Generation</h1>
+      <form id="idForm">
+        <table>
+          <tr>
+            <td><label for="firstName">Enter first name:</label></td>
+            <td>
+              <input
+                type="text"
+                id="firstName"
+                name="firstName"
+                required
+              /><br />
+            </td>
+          </tr>
+          <tr>
+            <td colspan="2"><br /></td>
+          </tr>
+          <tr>
+            <td><label for="lastName">Enter last name:</label></td>
+            <td>
+              <input type="text" id="lastName" name="lastName" required />
+            </td>
+          </tr>
+          <tr>
+            <td colspan="2" style="text-align: center">
+              <br />
+              <button type="submit">Generate ID</button>
+            </td>
+          </tr>
+          <tr>
+            <td colspan="2" style="text-align: center">
+              <p id="generatedId" class="generated-id"></p>
+            </td>
+          </tr>
+        </table>
+      </form>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

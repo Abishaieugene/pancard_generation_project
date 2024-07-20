@@ -1,0 +1,17 @@
+title {
+  color: red;
+}
+
+h1 {
+  color: aqua;
+}
+p {
+  text-align: center;
+  color: aquamarine;
+}
+label {
+  color: blue;
+}
+.generated-id {
+  color: chartreuse;
+}
